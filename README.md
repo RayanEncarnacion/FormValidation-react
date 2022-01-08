@@ -1,6 +1,8 @@
 # Form Validation  -  React
 
-This is just a practice project to learn how to use useForm (React Hook) and yup (Validation library) to come up with a nice UX while validating all the data provided by the user.
+<a href="https://validation-rayan-react.netlify.app/" target="blank">LIVE APP</a> <br>
+
+This is just a practice project to learn how to validate data provided by the user while maintaining a nice UX.
 
 ## How I build this?
 
@@ -8,4 +10,15 @@ This is just a practice project to learn how to use useForm (React Hook) and yup
 
 2 - Managed the form submittion in a custom hook using useForm with my yup schema as the resolver.
 
-3 - Added conditional paragprah tags to display any errors in the form.
+3 - Added conditional paragraph tags to display any errors in the form.
+
+## What I've used to build this project?
+
+```
+React
+yup (Validation library)
+useForm (Form submittion managment Hook)
+```
+
+Credit: [Rayan Encarnacion](https://github.com/RayanEncarnacion)
+Last Edited on: 01/08/2021
