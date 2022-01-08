@@ -2,7 +2,7 @@
 
 <a href="https://rayan-validation.netlify.app/" target="_blank">LIVE APP</a> <br>
 
-This is just a practice project to learn how to validate data provided by the user while maintaining a nice UX.
+This is just a practice project to validate data provided by the user trough a form while maintaining a nice UX.
 
 ## How I build this?
 
