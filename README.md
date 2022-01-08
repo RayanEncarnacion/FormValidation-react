@@ -1,6 +1,6 @@
 # Form Validation  -  React
 
-<a href="https://validation-rayan-react.netlify.app/" target="blank">LIVE APP</a> <br>
+<a href="https://validation-rayan-react.netlify.app/" target="_blank">LIVE APP</a> <br>
 
 This is just a practice project to learn how to validate data provided by the user while maintaining a nice UX.
 
