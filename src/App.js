@@ -29,7 +29,7 @@ function App() {
         type="text"
         name="email"
       />
-      <p>{errors.email && "Email must be valid."}</p>
+      <p>{errors.email?.message}</p>
       <label htmlFor="password">Password</label>
       <input
         required
@@ -37,7 +37,7 @@ function App() {
         type="password"
         name="password"
       />
-      <p>{errors.password && capitalize(errors.password.message)}</p>
+      <p>{errors.password?.message}</p>
       <label htmlFor="repeatPassword">Repeat Password</label>
       <input
         required
@@ -46,7 +46,7 @@ function App() {
         name="repeatPassword"
       />
 
-      <p>{errors.repeatPassword && "Passwords must be the same."}</p>
+      <p>{errors.repeatPassword?.message && "Passwords must be the same."}</p>
 
       {dataSent && <p className="success">Data sent successfully!</p>}
       <button type="submit">Submit</button>
